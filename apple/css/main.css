@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+ul,li,td,th,tr{
+    list-style: none;
+}
+body{
+    font-size: 12px;
+    color: rgba(0,0,0,0)
+}
+header{
+    background-color: #444444;
+    height: 40px;
+    overflow: hidden;
+}
+.adv-wrapper .adv-wrapper-text{
+    color: #a8a8aa;
+    line-height: 40px;
+    max-width: 976px;
+    margin: 0 auto;
+    text-align:right;
+}
+.ac-gn-list{
+    background-color: rgba(0,0,0,0.92);
+    height: 44px;
+}
+.ac-gn-content{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 22px; 
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+}
+.ac-gn-apple, .ac-gn-item, .ac-gn-bag{
+    display: inline-block;
+    position: relative;
+    padding: 0 15px;
+    line-height: 44px;
+}
+.ac-gn-apple{
+    margin-right: 30px;
+}
+.ac-gn-item {
+    width: 815px;
+    margin: 0 auto;
+}
+.ac-gn-item  ul{
+    display: flex;
+    justify-content : center;
+}
+.ac-gn-item li{
+    padding: 0 10px;
+}
+.ac-gn-link-text{
+    color: #9f9f9f;
+    display: block;
+}
